@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: darkred;
+}
+a:hover{
+	color: #D7F404;
+}
+.container{
+	width: 100%;
+	margin: auto;
+}
+.menu{
+	height: 140px;
+	margin-top: -70px;
+	margin-bottom: 0px;
+	text-align: center;
+	font-size: 16px
+}
+.menu ul li ul
+{
+	position: absolute;
+	visibility: hidden;
+}
+	
+.menu ul li{
+	display:inline-block;
+	padding: 0px 25px  ;
+	text-transform: uppercase;
+}
+.menu img{
+	margin: 5px 30px -80px -50px;
+	align-items: center;
+	
+}
+.menu img:hover{
+	opacity: 0;
+}
+.slice{
+	margin-top: 30px;
+	position: relative;
+}
+.slice .left{
+	width: 700px;
+	position: absolute;
+	top: 310px;
+	left: 450px;
+	
+}
+	.slice .left h2{
+		font-size: 80px;
+	color: #FFF;
+	text-align: center;
+		margin-top: -15px;
+}
+.slice .left p{
+	margin-top: 5px;
+	font-size: 22px;
+	color: #fff;
+	
+}
+.btn{
+	padding: 10px 20px ;
+	background-color: #8c1d20;
+	font-size: 22px;
+	border-radius: 28px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	margin-top: 10px;
+	margin-left: 300px;	
+}
+.banner{
+	width: 100%;
+	height: 270px;
+	background: #8c1d20;
+	margin-top: -10px;
+	animation-name: example;
+	  animation-duration: 9s;
+	}
+
+	@keyframes example {
+	  from {background-color: #8C1D20;}
+	  to {background-color: yellow;}
+	}
+.banner1{
+	width: 20%;
+	height: 137px;
+	background: #FFFFFF;
+	background-repeat: no-repeat;
+	float: left;
+    margin: 38px;
+	animation-name: example;
+	  animation-duration: 3s;
+	}
+
+
+.footer{
+		width: 100%;
+	height: 30px;
+	background-color: #FFF;
+}
+.footer a{
+	font-size: 25px;
+	margin-left: 710px;
+	text-decoration: inherit;
+}
+.qc{
+ width: 250px;
+  height: 80px;
+  background: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-delay: 2s;
+  animation-fill-mode: both;
+  text-align: center;
+	text-decoration-color: antiquewhite;
+}
+
+
+@keyframes example {
+  from {top: 0px; background-color: yellow;}
+  to {top: 200px; background-color: #8C1D20;}
+}
+.gt{
+	width: 100%;
+	height: 450px;
+	background-color:#8c1d20 ;
+	text-align: center;
+	font-size: 25px;
+	color: #FFF;
+}
+.gt1{
+	width: 80%;
+	height: 330px;
+	background-color: #8c1d20;
+	align-content: center;
+	margin-left: 155px;
+	
+}
+	
+
+		
+
